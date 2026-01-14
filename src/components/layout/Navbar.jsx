@@ -45,7 +45,7 @@ const Navbar = () => {
       >
         <div className="w-full h-16 flex items-center justify-between">
           {/* Logo */}
-          <h1 className="font-bold text-lg p-0">Othmane</h1>
+          <h1 className="font-bold text-lg p-0">Othmane Laghlimi</h1>
 
           {/* Desktop links */}
           <div className="hidden md:flex gap-6 text-sm">

@@ -29,8 +29,6 @@ const Projects = () => {
           paraghraphText="A selection of projects showcasing my frontend skills and attention to detail."
         ></SectionTitle>
 
-        
-
         {/* ===== Grid ===== */}
         <MotionDiv
           initial={{ y: 40, opacity: 0 }}
@@ -54,39 +52,42 @@ const Projects = () => {
               </div>
 
               {/* Content */}
-              <div className="p-6 flex flex-col gap-4">
-                <h3 className="text-lg font-semibold">{project.title}</h3>
+              <div className="p-6 flex flex-col gap-4 justify-between h-[calc(100%-224px)]">
+                <div>
+                  <h3 className="text-lg font-semibold">{project.title}</h3>
 
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  {project.description}
-                </p>
-
-                {/* Tech */}
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((t) => (
-                    <span
-                      key={t}
-                      className="text-xs px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800"
-                    >
-                      {t}
-                    </span>
-                  ))}
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {project.description}
+                  </p>
                 </div>
+                <div>
+                  {/* Tech */}
+                  <div className="flex flex-wrap gap-2">
+                    {project.tech.map((t) => (
+                      <span
+                        key={t}
+                        className="text-xs px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
 
-                {/* Links */}
-                <div className="mt-4 flex gap-4">
-                  <a
-                    href={project.github}
-                    className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
-                  >
-                    <FaGithub /> Code
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
-                  >
-                    <FaExternalLinkAlt /> Live
-                  </a>
+                  {/* Links */}
+                  <div className="mt-4 flex gap-4">
+                    <a
+                      href={project.github}
+                      className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
+                    >
+                      <FaGithub /> Code
+                    </a>
+                    <a
+                      href={project.demo}
+                      className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
+                    >
+                      <FaExternalLinkAlt /> Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

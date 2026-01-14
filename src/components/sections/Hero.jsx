@@ -26,8 +26,9 @@ const Hero = () => {
             </h1>
 
             <p className="mt-4 max-w-md text-gray-600 dark:text-gray-400">
-              Frontend Developer specialized in React, Tailwind CSS and smooth
-              UI animations.
+              {/* Frontend Developer specialized in React, Tailwind CSS and smooth
+              UI animations. */}
+              I build modern, fast websites with React & Tailwind CSS
             </p>
 
             <div className="mt-8 flex gap-4">
