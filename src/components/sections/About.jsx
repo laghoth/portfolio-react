@@ -27,14 +27,13 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-sm uppercase tracking-widest text-indigo-600 font-medium">
-            About me
-          </span>
-
-          <h2 className="mt-4 text-4xl font-bold leading-tight">
-            Building clean & modern
-            <br /> user experiences
-          </h2>
+          {/* Title */}
+          <SectionTitle
+            label="About me"
+            title="Building clean & modern
+            user experiences"
+            className="w-full flex flex-col justify-center items-start text-start"
+          />
 
           <p className="mt-6 text-gray-600 dark:text-gray-400 max-w-lg leading-relaxed">
             I’m a frontend developer who enjoys crafting elegant interfaces with

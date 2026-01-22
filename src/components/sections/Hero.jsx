@@ -13,7 +13,7 @@ const Hero = () => {
       transition={{ duration: 0.6 }}
       className="min-h-screen flex justify-between px-16 xl:px-32 2xl:px-60"
     >
-      <div className="mx-auto w-full grid md:grid-cols-2 items-center">
+      <div className="mx-auto w-full grid md:grid-cols-2 items-center ">
         {/* ===== Text ===== */}
         <MotionDiv
           initial={{ y: 30, opacity: 0 }}

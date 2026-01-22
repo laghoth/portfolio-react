@@ -98,7 +98,7 @@ export const projectsPortfolio = [
     description:
       "A clean and modern landing page built with React and Tailwind CSS, showcasing services and key information in an attractive and user-friendly way.",
     image: "/projects/landing-page-1.png",
-    tech: ["React", "Tailwind"],
+    tech: ["React", "TailwindCSS", "Framer Motion", "React Icons", " ESLint"],
     github: "#",
     demo: "https://landing-page-project-blond.vercel.app/v1",
   },
@@ -107,7 +107,8 @@ export const projectsPortfolio = [
     description:
       "A clean and modern landing page built with React and Tailwind CSS, showcasing services and key information in an attractive and user-friendly way.",
     image: "/projects/landing-page-2.png",
-    tech: ["React", "CSS"],
+    tech: ["React", "TailwindCSS", "Framer Motion", "React Icons", " ESLint"],
+
     github: "#",
     demo: "https://landing-page-project-blond.vercel.app/v2",
   },
@@ -125,8 +126,35 @@ export const projectsPortfolio = [
     description:
       "A fully responsive and dynamic multi-page website for an e-learning platform, built entirely with React.js. It features reusable components, smooth navigation, category filtering, and modern design. This project showcases a scalable architecture and optimized UI/UX for online education platforms.",
     image: "/projects/school.png",
-    tech: ["React", "CSS"],
+    tech: ["React", "React Router", "Bootstrap", "Sass"],
     github: "#",
     demo: "https://educate-school.vercel.app/",
+  },
+  {
+    title: "Solar Panel Services & Sustainable Energy Solutions",
+    description:
+      "A professional solar energy services website offering comprehensive solutions for residential, commercial, and industrial solar panel installations. The project features clear sections including services, projects showcase, team members, and contact details — all designed to highlight renewable energy expertise and drive customer engagement.",
+    image: "/projects/solar-panel.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "#",
+    demo: "https://solar-panel-theta.vercel.app/",
+  },
+  {
+    title: "Bach Personal Portfolio Website",
+    description:
+      "A clean and modern personal portfolio website showcasing the developer’s skills, projects, and contact information. Designed with responsive layouts and smooth animations, it allows visitors to quickly understand the developer’s expertise and explore past work. The site emphasizes simplicity, usability, and professional presentation.",
+    image: "/projects/bach-personal.png",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    github: "#",
+    demo: "https://bach-personal.vercel.app/",
+  },
+  {
+    title: "Trend Recipes – WordPress Food Blog",
+    description:
+      "A modern food and recipe blog built with WordPress and Elementor. It highlights well-organized recipe categories, responsive design, and an easy-to-navigate layout focused on user experience and readability.",
+    image: "/projects/recipes-blog.png",
+    tech: ["WordPress", "Elementor", "HTML", "CSS"],
+    github: "#",
+    demo: "https://antiquewhite-horse-566024.hostingersite.com/",
   },
 ];

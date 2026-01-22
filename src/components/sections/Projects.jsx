@@ -75,15 +75,16 @@ const Projects = () => {
 
                   {/* Links */}
                   <div className="mt-4 flex gap-4">
-                    <a
+                    {/* <a
                       href={project.github}
                       className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
                     >
                       <FaGithub /> Code
-                    </a>
+                    </a> */}
                     <a
                       href={project.demo}
                       className="flex items-center gap-2 text-sm hover:text-indigo-600 transition"
+                      target="_blank"
                     >
                       <FaExternalLinkAlt /> Live
                     </a>
