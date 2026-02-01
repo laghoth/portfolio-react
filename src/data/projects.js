@@ -117,7 +117,14 @@ export const projectsPortfolio = [
     description:
       "A complete car rental platform featuring a user-friendly dashboard to add, update, and remove cars, track daily bookings, and manage customer reservations efficiently. Built with React for the frontend and Node.js with Express for the backend, this application ensures seamless interaction between users and the system, providing a smooth rental experience.",
     image: "/projects/wekcar.png",
-    tech: ["React", "CSS"],
+    tech: [
+  "React",
+  "Vite",
+  "Tailwind CSS",
+  "Node.js",
+  "Express",
+  "MongoDB"
+],
     github: "#",
     demo: "https://wekcar.ma/",
   },
@@ -156,5 +163,14 @@ export const projectsPortfolio = [
     tech: ["WordPress", "Elementor", "HTML", "CSS"],
     github: "#",
     demo: "https://antiquewhite-horse-566024.hostingersite.com/",
+  },
+  {
+    title: "Rachy Interiors – Interior Design & Furniture Store",
+    description:
+      "A modern interior design and furniture showcase website built with WordPress and Elementor Pro. The project highlights elegant home layouts, categorized living spaces, popular products, and professional design services, all wrapped in a clean, responsive, and user-friendly interface.",
+    image: "/projects/rachyinteriors.png",
+    tech: ["WordPress", "Elementor Pro", "HTML", "CSS", "JavaScript"],
+    github: "#",
+    demo: "https://rachyinteriors.com", 
   },
 ];
