@@ -117,14 +117,7 @@ export const projectsPortfolio = [
     description:
       "A complete car rental platform featuring a user-friendly dashboard to add, update, and remove cars, track daily bookings, and manage customer reservations efficiently. Built with React for the frontend and Node.js with Express for the backend, this application ensures seamless interaction between users and the system, providing a smooth rental experience.",
     image: "/projects/wekcar.png",
-    tech: [
-  "React",
-  "Vite",
-  "Tailwind CSS",
-  "Node.js",
-  "Express",
-  "MongoDB"
-],
+    tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     github: "#",
     demo: "https://wekcar.ma/",
   },
@@ -171,6 +164,15 @@ export const projectsPortfolio = [
     image: "/projects/rachyinteriors.png",
     tech: ["WordPress", "Elementor Pro", "HTML", "CSS", "JavaScript"],
     github: "#",
-    demo: "https://rachyinteriors.com", 
+    demo: "https://rachyinteriors.com",
+  },
+  {
+    title: "Tasra Surf & Flow – Surf & Wellness Camp in Imsouane",
+    description:
+      "An authentic surf and wellness camp website built with WordPress and Elementor. The project showcases surf packages, accommodation, yoga sessions, transportation options, and the unique lifestyle of Imsouane, Morocco, with an immersive, responsive, and user-friendly design.",
+    image: "/projects/tasrasurfandflow.png",
+    tech: ["WordPress", "Elementor", "HTML", "CSS", "JavaScript"],
+    github: "#",
+    demo: "https://tasrasurfandflow.com",
   },
 ];
